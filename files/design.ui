@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>login_screen</class>
+ <widget class="QMainWindow" name="login_screen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Icom v-1.0</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icons/icon.png</normaloff>icons/icon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">.QMainWindow{
+	background-color:#A8D0B6;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>110</y>
+      <width>581</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">.QLabel{
+	border:1px solid rgb(193, 238, 209);
+	background-color:rgb(193, 238, 209);
+	opacity:1;
+	border-radius:10px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>160</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">.QLabel{
+	font-size:20px;
+}</string>
+    </property>
+    <property name="text">
+     <string>تسجيل دخول</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>260</y>
+      <width>191</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">.QLineEdit{
+	background-color:rgb(193, 238, 209);
+	border:1px solid rgb(166, 166, 166);
+	border-radius:10px;
+	font-size:15px;
+}</string>
+    </property>
+    <property name="placeholderText">
+     <string>ادخل اسم المستخدم</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>320</y>
+      <width>191</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">.QLineEdit{
+	background-color:rgb(193, 238, 209);
+	border:1px solid rgb(166, 166, 166);
+	border-radius:10px;
+	font-size:15px;
+}</string>
+    </property>
+    <property name="maxLength">
+     <number>32766</number>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string>ادخل كلمه المرور</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>390</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">.QPushButton{
+	background-color:rgb(0, 0, 255);
+	color:#fff;
+	border-radius:10px;
+	font-size:14px;
+}
+.QPushButton:hover{
+	background-color:rgb(0, 0, 154);
+	color:#fff;
+	border-radius:10px;
+	font-size:14px;
+}</string>
+    </property>
+    <property name="text">
+     <string>تسجيل دخول</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>440</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">.QPushButton{
+	background-color:rgb(255, 0, 4);
+	color:#fff;
+	border-radius:10px;
+	font-size:14px;
+}
+.QPushButton:hover{
+	background-color:#A20000;
+	color:#fff;
+	border-radius:10px;
+	font-size:14px;
+}</string>
+    </property>
+    <property name="text">
+     <string>خروج</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>240</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">.QLabel{
+	font-size:13px;
+}</string>
+    </property>
+    <property name="text">
+     <string>اسم المستخدم</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>300</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">.QLabel{
+	font-size:13px;
+}</string>
+    </property>
+    <property name="text">
+     <string>كلمه المرور</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>240</y>
+      <width>141</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>icons/icon.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1366</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
